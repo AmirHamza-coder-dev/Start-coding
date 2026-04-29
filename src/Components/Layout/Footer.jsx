@@ -4,10 +4,7 @@ import { FaFacebookF } from 'react-icons/fa';
 import { IoLogoTwitter } from 'react-icons/io5';
 import { FaLinkedinIn } from 'react-icons/fa6';
 import { FaInstagram } from 'react-icons/fa';
-<<<<<<< HEAD
 import { FaHeadphonesSimple } from 'react-icons/fa6';
-=======
->>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
 
 const Footer = () => {
   const socialIcons = [
@@ -37,12 +34,7 @@ const Footer = () => {
     <footer className="pt-16">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-20 pb-16">
-<<<<<<< HEAD
           {/* first part */}
-=======
-        
-                {/* first part */}
->>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
 
           <div className="hidden sm:block md:block order-2 ">
             <Link>
@@ -129,15 +121,10 @@ const Footer = () => {
             </p>
 
             <div className="flex gap-7 ">
-<<<<<<< HEAD
-=======
-              <img src="/Footer_img/contact.png" alt="" />
->>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
               <div>
                 <p className="text-[18px] font-normal text-secondary">
                   Have any question?
                 </p>
-<<<<<<< HEAD
                 <div className="flex gap-3 items-center">
                   <span className="text-[25px] font-semibold text-[#0198E9]">
                     <FaHeadphonesSimple />
@@ -146,11 +133,6 @@ const Footer = () => {
                     099 456 789
                   </Link>
                 </div>
-=======
-                <Link className="text-3xl font-semibold text-[#0198E9]">
-                  099 456 789
-                </Link>
->>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
               </div>
             </div>
           </div>
@@ -167,7 +149,6 @@ const Footer = () => {
             </Link>
           ))}
         </div>
-<<<<<<< HEAD
       </div>
 
       <div className="border-t border-[#E5E5E5]">
@@ -179,19 +160,6 @@ const Footer = () => {
           <span className=" hidden md:flex text-xl font-medium text-[#0198E9CC]">
             Pay With <img src="/Footer_img/pay_with.png" alt="" />
           </span>
-=======
-
-        
-      </div>
-      
-      <div className='border-t border-[#E5E5E5]'>
-
-        <div className='container   flex justify-center md:justify-between py-5'>
-          <p className='text-[16px] font-normal text-[#757575]'>Projectnirvoya -   © 2021 All Rights Reserved</p>
-
-
-          <span className=' hidden md:flex text-xl font-medium text-[#0198E9CC]'>Pay With <img src="/Footer_img/pay_with.png" alt="" /></span>
->>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
         </div>
       </div>
     </footer>

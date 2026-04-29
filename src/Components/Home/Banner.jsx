@@ -13,11 +13,7 @@ const Banner = () => {
 
     appendDots: (dots) => (
       <div>
-<<<<<<< HEAD
         <ul className='flex  absolute bottom-9 md:bottom-11  left-1/2 transform -translate-x-1/2'> {dots} </ul>
-=======
-        <ul className='flex absolute bottom-6 left-1/2 transform -translate-x-1/2'> {dots} </ul>
->>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
       </div>
     ),
  customPaging: (i) => (
@@ -26,11 +22,7 @@ const Banner = () => {
   };
   return (
     <section>
-<<<<<<< HEAD
       <div className="container pt-2.5 pb-12.5 ">
-=======
-      <div className="container pt-2.5 pb-[50px] ">
->>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
         <div className="slider-wrapper flex items-center gap-5">
          
          

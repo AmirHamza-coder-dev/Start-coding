@@ -26,10 +26,6 @@ body {
 }
 
 .slick-dots .slick-active div {
-<<<<<<< HEAD
   @apply w-4  md:w-6;
-=======
-  @apply w-4  md:w-8;
->>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
   background-color: var(--brand-color);
 }

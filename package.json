@@ -11,21 +11,13 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@reduxjs/toolkit": "^2.11.2",
-    "axios": "^1.15.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-icons": "^5.6.0",
     "react-redux": "^9.2.0",
     "react-router": "^7.13.2",
-    "react-router-dom": "^7.14.0",
-=======
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "react-icons": "^5.6.0",
-    "react-router": "^7.13.2",
->>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
+    "react-router-dom": "^7.14.2",
     "react-slick": "^0.31.0",
     "slick-carousel": "^1.8.1"
   },

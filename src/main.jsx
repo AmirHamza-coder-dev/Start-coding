@@ -1,33 +1,17 @@
-<<<<<<< HEAD
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import "./index.css";
-import App from "./App.jsx";
-import { ApiProvider } from "@reduxjs/toolkit/query/react";
-import { apiService } from "./Services/Api.js";
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
 
-createRoot(document.getElementById("root")).render(
-  <ApiProvider api={apiService}>
-  
-      <App />
-  
-  </ApiProvider>
-);
-
-  
-    <App />
-  
-
-
-=======
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+// 1. Import the Provider and your API service
+import { ApiProvider } from '@reduxjs/toolkit/query/react';
+import { apiService } from './Services/Api.js'; 
 
 createRoot(document.getElementById('root')).render(
-  
-    <App />
-  
-)
->>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
+  <React.StrictMode>
+    {/* 2. Wrap your App with the ApiProvider */}
+    <ApiProvider api={apiService}>
+      <App />
+    </ApiProvider>
+  </React.StrictMode>
+);
