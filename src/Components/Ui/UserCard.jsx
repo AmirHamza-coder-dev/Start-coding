@@ -27,7 +27,11 @@ const UserCard = ({ user }) => {
   );
 };
 
+<<<<<<< HEAD
 
 export default UserCard;
 
 
+=======
+export default UserCard;
+>>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf

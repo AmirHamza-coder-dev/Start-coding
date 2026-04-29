@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react';
 // import Input from '../Components/Ui/Input';
 // import Button from '../Components/Ui/Button';
@@ -43,10 +44,13 @@
 
 // export default Form;
 
+=======
+>>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
 import React from 'react';
 import Input from '../Components/Ui/Input';
 import Button from '../Components/Ui/Button';
 import { Link } from 'react-router';
+<<<<<<< HEAD
 import { useState } from 'react';
 const Login = () => {
 
@@ -56,6 +60,9 @@ const [loginData, setLoginData] = useState({
 });
 
 
+=======
+const Form = () => {
+>>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
   return (
     <div className='flex h-dvh justify-center items-center bg-gray-200'>
     <div className="w-80 rounded-lg shadow-2xl h-auto p-6 bg-white relative overflow-hidden">
@@ -69,10 +76,17 @@ const [loginData, setLoginData] = useState({
 
       <form className="w-full mt-4 space-y-3">
         <div>
+<<<<<<< HEAD
           <Input className="outline-none border-2 rounded-md px-2 py-1 text-slate-500 w-full focus:border-blue-300" placeholder="Username" id="username" name="username" type="text" value={loginData.username} onChange={(e) => setLoginData({...loginData, username: e.target.value})} />
         </div>
         <div>
           <Input className="outline-none border-2 rounded-md px-2 py-1 text-slate-500 w-full focus:border-blue-300" placeholder="Password" id="password" name="password" type="password" value={loginData.password} onChange={(e) => setLoginData({...loginData, password: e.target.value})} />
+=======
+          <Input className="outline-none border-2 rounded-md px-2 py-1 text-slate-500 w-full focus:border-blue-300" placeholder="Username" id="username" name="username" type="text" />
+        </div>
+        <div>
+          <Input className="outline-none border-2 rounded-md px-2 py-1 text-slate-500 w-full focus:border-blue-300" placeholder="Password" id="password" name="password" type="password" />
+>>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
         </div>
         <div className="flex items-center justify-between">
           <div className="flex items-center">
@@ -94,4 +108,8 @@ const [loginData, setLoginData] = useState({
   );
 }
 
+<<<<<<< HEAD
 export default Login;
+=======
+export default Form;
+>>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf

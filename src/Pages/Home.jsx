@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import Pagination from '../Components/Ui/Pagination'
 import Banner from '../Components/Home/Banner'
 import Categorys from '../Components/Home/Categorys'
@@ -12,6 +13,19 @@ const Home = () => {
       <Categorys />
       <SmartPhone />
       <FeaturedProducts/>
+=======
+import Banner from '../Components/Home/Banner'
+import Categorys from '../Components/Home/Categorys'
+import Flashdeals from '../Components/Home/Flashdeals'
+import Service from '../Components/Ui/Service'
+
+const Home = () => {
+  return (
+    <div>
+      <Banner />
+      <Categorys />
+      <Flashdeals />
+>>>>>>> 7261c0f5d7896546c5d4c8cc3fcef208ad6f0fdf
       <Service/>
     </div>
   )
