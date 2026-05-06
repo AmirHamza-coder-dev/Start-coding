@@ -8,8 +8,12 @@ import ProductDetails from './Pages/ProductDetails';
 import Registration from './Pages/Registration';
 import Login from './Pages/Login';
 import ApiTest from './Pages/ApiTest';
+
+
 const App = () => {
   return (
+
+
     <BrowserRouter>
       <Routes>
         <Route path="/registration" element={<Registration />} />

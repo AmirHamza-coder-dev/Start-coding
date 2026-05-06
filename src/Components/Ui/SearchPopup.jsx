@@ -12,6 +12,7 @@ const SearchPopup = () => {
 
   return (
     <div className="relative w-full">
+        
       {/* Search Input Box */}
       <div className="flex relative items-center">
         <input
@@ -27,6 +28,7 @@ const SearchPopup = () => {
       </div>
 
       {/* Popup Dropdown with Grid Layout */}
+
       {searchTerm.length >= 2 && (
         <div className="absolute top-[110%] left-0 w-full md:w-[750px] bg-white border border-gray-100 rounded-lg shadow-2xl z-[999] max-h-[500px] overflow-y-auto p-4">
           

@@ -5,78 +5,7 @@ import { useGetCategoryListQuery } from '../../Services/Api';
 const Categorys = () => {
   const { data, isLoading, isError } = useGetCategoryListQuery();
 
-  //   const categories = [
-  //     {
-  //       title: 'Health & Household',
-  //       icon: '/public/Icons/icon1.png',
-  //     },
-  //     {
-  //       title: 'Kids Fashion',
-  //       icon: '/public/Icons/icon2.png',
-  //     },
-  //     {
-  //       title: 'Toys',
-  //       icon: '/public/Icons/icon3.png',
-  //     },
 
-  //     {
-  //       title: 'Groceries',
-  //       icon: '/public/Icons/icon4.png',
-  //     },
-  //     {
-  //       title: 'Home & Lifestyle',
-  //       icon: '/public/Icons/icon5.png',
-  //     },
-  //     {
-  //       title: 'Men Fashion',
-  //       icon: '/public/Icons/icon6.png',
-  //     },
-  //     {
-  //       title: 'Women Fashion',
-  //       icon: '/public/Icons/icon7.png',
-  //     },
-  //     {
-  //       title: 'Stationary & Books',
-  //       icon: '/public/Icons/icon8.png',
-  //     },
-
-  //     {
-  //       title: 'Leather Goods',
-  //       icon: '/public/Icons/icon9.png',
-  //     },
-
-  //     {
-  //       title: 'Jewelleries ',
-  //       icon: '/public/Icons/icon10.png',
-
-  //     },
-
-  //     {
-  //       title: 'Watches',
-  //       icon: '/public/Icons/icon11.png',
-  //     },
-
-  //     {
-  //       title: 'Men Fashion',
-  //       icon: '/public/Icons/icon12.png',
-  //     },
-
-  // {
-  //       title: 'Tools & Hardware',
-  //       icon: '/public/Icons/icon13.png',
-  // },
-
-  // {
-  //       title: 'Pet Supplies',
-  //       icon: '/public/Icons/icon14.png',
-  // },
-
-  // {
-  //       title: 'Seasonal',
-  //       icon: '/public/Icons/icon15.png',
-  // }
-
-  //   ];
   return (
     <div>
       <section>
